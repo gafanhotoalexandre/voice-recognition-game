@@ -50,3 +50,17 @@ strong {
 	padding: 10px;
 	margin: 20px;
 }
+
+/* Button Restart */
+button {
+	cursor: pointer;
+}
+
+.btn-play {
+	background-color: var(--primary-color);
+	border: 0;
+	border-radius: 5px;
+	color: var(--bg-color);
+	padding: .5rem 1.5rem;
+	margin-top: 1.2rem;
+}
