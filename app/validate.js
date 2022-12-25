@@ -18,7 +18,7 @@ function checkIfGuessHasValidValue(guess) {
 			<h2>Você acertou!</h2>
 			<h3>O número secreto era ${secretNumber}.</h3>
 
-			<button id="play-again" class="btn-play">Jogar novamente</button>
+			<button id="play-again" class="btn-play outline-style">Jogar novamente</button>
 		`
 	} else if (number > secretNumber) {
 		guessElement.innerHTML += `
