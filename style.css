@@ -2,8 +2,8 @@
 
 :root {
 	--font-family: 'Inter', sans-serif;
-	--bg-color: #47B5FF; /* #497174 | #91D8E4 */
-	--primary-color: #DFF6FF; /* #EFF5F5 | #EAFDFC */
+	--bg-color: #0B4284; /* #497174 | #91D8E4 */
+	--primary-color: #FFFFFF; /* #EFF5F5 | #EAFDFC */
 }
 
 body {
@@ -54,6 +54,10 @@ strong {
 /* Button Restart */
 button {
 	cursor: pointer;
+	transition: all .3 ease;
+}
+button:hover {
+	opacity: .9;
 }
 
 .btn-play {
