@@ -7,6 +7,7 @@ recognition.lang = 'pt-br'
 recognition.start();
 
 recognition.addEventListener('result', onSpeak)
+recognition.addEventListener('end', () => recognition.start());
 
 function onSpeak(event) {
 	const guess = event.results[0][0].transcript;
