@@ -9,10 +9,10 @@ function checkIfGuessHasValidValue(guess) {
 				<button id="play-again" class="btn-play outline-style">Jogar novamente</button>
 			`;
 			document.body.classList.add('bg-dark');
+		} else {
+			guessElement.innerHTML += `<div>Valor Inválido!</div>`;
+			return;
 		}
-
-		guessElement.innerHTML += `<div>Valor Inválido!</div>`;
-		return;
 	}
 
 	if (numberGreaterOrLessThanAllowedValue(number)) {
