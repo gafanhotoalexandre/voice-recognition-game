@@ -38,6 +38,10 @@ strong {
 	font-weight: 700;
 }
 
+.bg-dark {
+	background-color: #0A2647;
+}
+
 .message {
 	font-size: 1.5rem;
 	margin-top: 40px;

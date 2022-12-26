@@ -2,6 +2,15 @@ function checkIfGuessHasValidValue(guess) {
 	const number = +guess;
 
 	if (invalidGuess(number)) {
+		if (guess.toUpperCase() === 'GAME OVER') {
+			document.body.innerHTML = `
+				<h2>Game Over!!!</h2>
+				<h3>Pressione o botão para jogar novamente.</h3>
+				<button id="play-again" class="btn-play outline-style">Jogar novamente</button>
+			`;
+			document.body.classList.add('bg-dark');
+		}
+
 		guessElement.innerHTML += `<div>Valor Inválido!</div>`;
 		return;
 	}
