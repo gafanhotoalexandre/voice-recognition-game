@@ -11,7 +11,6 @@ function checkIfGuessHasValidValue(guess) {
 			document.body.classList.add('bg-dark');
 		} else {
 			guessElement.innerHTML += `<div>Valor Inválido!</div>`;
-			return;
 		}
 	}
 
